@@ -1,0 +1,31 @@
+/* 뼈대와 꾸미는 클래스를 분리해라 */
+/* OOS (Object Oriented CSS) */
+.f-small {
+  font-size: 12px;
+}
+
+.f-mid {
+  font-size: 16px;
+}
+
+.f-lg {
+  font-size: 20px;
+}
+
+.main-btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-blue {
+  background: blue;
+}
+
+/* BEM 룰 */
+/* Block_Elemet-Modifier */

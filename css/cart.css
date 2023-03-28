@@ -1,0 +1,52 @@
+tr {
+  border: 1px solid black;
+}
+
+.cart-table {
+  border-collapse: collapse;
+}
+
+.cart-table th:nth-child(2) {
+  width: 400px;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.item-info {
+  vertical-align: middle;
+  text-align: right;
+  color: gray;
+}
+
+.total-amount {
+  color: blue;
+}
+
+.btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+
+/* hover active focus 순서가 중요함 */
+/* hover > focus > active  순서로 해야함 */
+
+.btn:hover {
+  background-color: chocolate;
+  color: aqua;
+}
+
+.btn:focus {
+  background-color: yellow;
+  color: aqua;
+}
+
+.btn:active {
+  background-color: brown;
+}
